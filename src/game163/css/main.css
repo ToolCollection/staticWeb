@@ -9,12 +9,13 @@
 
 .navbar img {
     position: relative;
-    left: 200px;
+    left: 100px;
+    top: -10px;
 }
 
-.nav-tabs li {
+.navbar-collapse li {
     position: relative;
-    left: 700px;
+    left: 500px;
     padding-left: 30px;
 }
 
@@ -22,4 +23,16 @@
     color: #333;
     font-size: 12px;
     line-height: 34px;
+}
+
+.fadeUp {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -70%, 0);
+    -webkit-transition: all ease-in-out .5s;
+    transform: translate3d(0, -70%, 0);
+    transition: all ease-in-out .5s
+}
+
+.dropdown-menu li a {
+    color: black;
 }
