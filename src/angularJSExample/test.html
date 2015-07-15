@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="httpModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="import" href="../framework/common/head.html"/>
+</head>
+<body>
+<div ng-controller="HttpController">
+    <li ng-repeat="x in names">
+        <span ng-bind="x.Name"></span>
+        <span ng-bind="x.Country"></span>
+    </li>
+
+</div>
+
+<script>
+    var httpModule = angular.module("httpModule", []);
+    httpModule.controller('HttpController', ['$scope', '$http', function ($scope, $http) {
+        //get
+        var url = "data/customer.json";
+        $http.get(url).success(
+                function (data) {
+                    $scope.names=data;
+                }).error(function(data){
+            alert('error:' + data);
+        });
+
+    }])
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 56px;
+}
+
+.navbar img {
+    position: relative;
+    left: 200px;
+}
+
+.nav-tabs li {
+    position: relative;
+    left: 700px;
+    padding-left: 30px;
+}
+
+.nav li a {
+    color: #333;
+    font-size: 12px;
+    line-height: 34px;
+}

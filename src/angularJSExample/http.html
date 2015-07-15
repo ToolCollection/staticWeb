@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="httpModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="import" href="../framework/common/head.html"/>
+</head>
+<body>
+<div ng-controller="HttpController">
+    <li ng-repeat="x in names">
+        {{ x.Name + ', ' + x.Country }}
+    </li>
+</div>
+
+<script>
+    var httpModule = angular.module("httpModule", []);
+    httpModule.controller('HttpController', ['$scope', '$http', function ($scope, $http) {
+        //get
+        $http.(
+
+                ).success(function(){
+
+        }).error(function(){
+
+        });
+
+    }])
+</script>
+</body>
+</html>

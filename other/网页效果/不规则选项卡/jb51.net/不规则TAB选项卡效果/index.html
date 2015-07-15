@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>不规则TAB选项卡效果</title>
+<style type="text/css">
+<!--
+body,td{font-size: 12px;}
+
+.tab{margin-top:100px}
+
+#TabCon1{width:212px;height:100px;line-height:100px;border-left:#757575 1px solid;border-bottom:#757575 1px solid;border-right:#757575 1px solid;}
+#TabCon2{width:212px;height:100px;line-height:100px;border-left:#757575 1px solid;border-bottom:#757575 1px solid;border-right:#757575 1px solid;}
+
+.xixi1{width:212px;height:29px;line-height:29px;background-image:url(images/news_bghover1.gif);cursor:pointer;}
+.xixi2{width:212px;height:29px;line-height:29px;background-image:url(images/news_bghover2.gif);cursor:pointer;}
+
+.tab1{width:96px;height:29px;line-height:29px;float:left;text-align:center;cursor:pointer; color:#FFF;}
+.tab2{width:116px;height:29px;line-height:29px;float:left;text-align:center;cursor:pointer;color:#000;}
+
+-->
+</style>
+</head>
+<body style="text-align:center">
+<script type="text/javascript">
+	function setTab03Syn ( i )
+	{
+		selectTab03Syn(i);
+	}
+	
+	function selectTab03Syn ( i )
+	{
+		switch(i){
+			case 1:
+			document.getElementById("TabCon1").style.display="block";
+			document.getElementById("TabCon2").style.display="none";
+			document.getElementById("font1").style.color="#ffffff";
+			document.getElementById("font2").style.color="#000000";
+			break;
+			case 2:
+			document.getElementById("TabCon1").style.display="none";
+			document.getElementById("TabCon2").style.display="block";
+			document.getElementById("font1").style.color="#000000";
+			document.getElementById("font2").style.color="#ffffff";
+			break;
+		}
+	}
+
+</script>
+
+<div class="tab">
+	<div id="bg" class="xixi1">
+		<div id="font1" class="tab1" onMouseOver="setTab03Syn(1);document.getElementById('bg').className='xixi1'">新闻标签</div>
+		<div id="font2" class="tab2" onMouseOver="setTab03Syn(2);document.getElementById('bg').className='xixi2'">新闻标签</div>
+	</div>
+    <div id="TabCon1">不规则TAB选项卡效果</div>
+	<div id="TabCon2" style="display:none">不规则TAB选项卡效果2</div>
+</div>
+<!--
+   ┏━━━━━━━━━━━━━━━━━━━━━┓
+   ┃             源 码 爱 好 者               ┃
+   ┣━━━━━━━━━━━━━━━━━━━━━┫
+   ┃                                          ┃
+   ┃           提供源码发布与下载             ┃
+   ┃                                          ┃
+   ┃        http://www.jb51.net           ┃
+   ┃                                          ┃
+   ┃            互助、分享、提高              ┃
+   ┗━━━━━━━━━━━━━━━━━━━━━┛
+-->
+</body>
+</html>

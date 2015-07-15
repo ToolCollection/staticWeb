@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="myModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="import" href="../framework/common/head.html"/>
+</head>
+<body>
+    <hello></hello>
+    <div class="hello"></div>
+    <div hello></div>
+    <div ng-controller="MyCtrl">
+        <loader howToLoad="loadData()"></loader>
+    </div>
+
+
+    <script>
+        var myModule=angular.module('myModule',[]);
+        myModule.controller('MyCtrl',function($scope){
+            $scope.loadData-=function(){
+                console.log("数据加载中........")
+            }
+        })
+
+
+        myModule.directive('load',function(){
+            return{
+                restrict:'AEMC',
+//                template:'hello.html',
+//                transclude:true,
+                link:function(scope,element,attrs){
+                    element.bind("mouseenter",function(){
+                        scope.$apply(attrs.hotoload())
+                    })
+                }
+            }
+        });
+    </script>
+</body>
+</html>

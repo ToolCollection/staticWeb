@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>LOL英雄联盟隐藏分查询，查查你的真实实力到底是多少</title>
+    <link rel="stylesheet" href="css/lol.css">
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+</head>
+<body>
+<div class="warp">
+
+    <div id="select">
+            <div class="" >
+              <h1 class="line-height">英雄联盟隐藏Rank分查询--炸蛋人</h1>
+            </div>
+        <div  class="center" id="select-content" style="padding-top:50px" >
+            <div class="center">
+            <div><label for="选择大区" id="area">选择大区</label></div>
+                <select name="serverId" id="serverId"  onchange="c()">
+                    <option selected="selected" value="1">艾欧尼亚  电信一</option>
+                    <option value="2">比尔吉沃特  网通一</option>
+                    <option value="3">祖安 电信二</option>
+                    <option value="4">诺克萨斯  电信三</option>
+                    <option value="6">德玛西亚 网通二</option>
+                    <option value="5">班德尔城 电信四</option>
+                    <option value="7">皮尔特沃夫 电信五</option>
+                    <option value="8">战争学院 电信六</option>
+                    <option value="9">弗雷尔卓德 网通三</option>
+                    <option value="10">巨神峰 电信七</option>
+                    <option value="11">雷瑟守备 电信八</option>
+                    <option value="12">无畏先锋 网通四</option>
+                    <option value="13">裁决之地 电信九</option>
+                    <option value="14">黑色玫瑰 电信十</option>
+                    <option value="15">暗影岛 电信十一</option>
+                    <option value="17">钢铁烈阳 电信十二</option>
+                    <option value="16">恕瑞玛 网通五</option>
+                    <option value="19">均衡教派 电信十三</option>
+                    <option value="18">水晶之痕 电信十四</option>
+                    <option value="21">教育网专区 教育一</option>
+                    <option value="22">影流 电信十五</option>
+                    <option value="23">守望之海 电信十六</option>
+                    <option value="20">扭曲丛林 网通六</option>
+                    <option value="24">征服之海 电信十七</option>
+                    <option value="25">卡拉曼达 电信十八</option>
+                    <option value="27">皮城警备 电信十九</option>
+                    <option value="26">巨龙之巢 网通七</option>
+                </select>
+          </div>
+
+          <div class="">
+            <div><label for="填写您的ID">填写您的ID</label></div>
+            <input type="text" class="" id="playerId" >
+          </div>
+
+             <div class="">
+            <button class="" id="selectBtn" >搜索召唤师</button>
+          </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var c=function(){
+    var selectIndex = document.getElementById("serverId").selectedIndex;//获得是第几个被选中了
+    var selectText = document.getElementById("serverId").options[selectIndex].text; //获得被选中的项目的文本
+    document.getElementById('serverName').value = selectText.split(" ")[1];
+ };
+ </script>
+<script type="text/javascript">
+     $("#selectBtn").bind("click", function(event) {
+         $("#select").hide(); 
+         $("#result").show(); 
+     });
+
+
+</script>
+</body>
+</html>
