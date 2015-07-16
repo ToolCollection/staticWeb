@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>网易游戏</title>
-    <link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="import" href="../framework/common/head.html"/>
+    <link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,14 +36,15 @@
                     </ul>
                 </li>
                 <!--end-->
-                <li><a href="#" data-toggle="modal" data-target="#about-modal">网易考拉海购|网易秀品商城</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#about-modal">网易考拉海购</a></li>
+                <!--网易秀品商城-->
             </ul>
-
         </div>
-
     </div>
-
 </nav>
+<div id="content">
+    <img src="img/banner.png" alt=""/>
+</div>
 <script>
     $('li.dropdown').mouseover(function () {
         $(this).addClass('open');
