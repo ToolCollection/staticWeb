@@ -1,0 +1,608 @@
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000
+}
+
+html, body, fieldset, img, iframe, abbr {
+    border: 0
+}
+
+li {
+    list-style: none
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+a, button {
+    cursor: pointer
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+    font-weight: 700
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+body, textarea, input, button {
+    color: #62a1c9
+}
+
+html, body {
+    width: 100%;
+    min-height: 930px;
+    min-width: 1150px;
+    height: auto
+}
+
+.hide {
+    display: none
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.fontSizeNo {
+    font-size: 0;
+    text-indent: -9999em
+}
+
+.inlineBlock {
+    display: inline-block;
+    _zoom: 1;
+    _display: inline
+}
+
+.l-up {
+    z-index: 50;
+    height: 605px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/bg1_732502b.jpg) no-repeat center center
+}
+
+.l-up .center-wrap {
+    padding-top: 105px
+}
+
+.l-up .l-up-left {
+    width: 352px;
+    float: left;
+    margin-top: 45px
+}
+
+.l-up .l-up-left .logo {
+    font-size: 0;
+    text-indent: -9999em;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/logo_f3437a8.png) no-repeat center center;
+    width: 344px;
+    height: 75px
+}
+
+.l-up .l-up-left .vedio {
+    width: 341px;
+    height: 192px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/vedio_2dac77e.png) no-repeat center center;
+    margin-top: 25px
+}
+
+.l-up .l-up-left .vedio .play {
+    outline: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/play_6e2d2bb.png) no-repeat center center;
+    z-index: 5;
+    padding: 66px 0;
+    margin: 0 auto
+}
+
+.l-up .l-up-left p {
+    color: #282c32;
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 28px
+}
+
+.l-up .l-up-mid {
+    position: relative;
+    z-index: 15;
+    float: left;
+    width: 276px;
+    height: 555px;
+    margin-left: 72px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/phone_e04bb7d.png) no-repeat center center
+}
+
+.l-up .l-up-mid .slide {
+    position: relative;
+    width: 252px;
+    height: 412px;
+    overflow: hidden;
+    margin: 53px 12px
+}
+
+.l-up .l-up-mid .slide img {
+    float: left
+}
+
+.l-up .l-up-mid .slide .slide-box {
+    width: 756px;
+    position: relative
+}
+
+.l-up .l-up-mid .slide-dot {
+    position: absolute;
+    z-index: 15;
+    width: 40px;
+    margin-top: 100px;
+    left: 116px;
+    bottom: -22px
+}
+
+.l-up .l-up-mid .slide-dot .lbkj {
+    display: inline-block;
+    _zoom: 1;
+    _display: inline;
+    width: 6px;
+    height: 6px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/lbkj1_418ed10.png) no-repeat center center;
+    vertical-align: middle;
+    *margin: 0 3px
+}
+
+.l-up .l-up-mid .slide-dot .lbkj.slide_act {
+    width: 10px;
+    height: 10px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/lbkj-hover_fc364f9.png) no-repeat center center
+}
+
+.l-up .l-up-right {
+    float: left;
+    width: 410px;
+    height: 300px;
+    margin: 52px 0 0 40px
+}
+
+.l-up .l-up-right .ts {
+    margin-bottom: 52px
+}
+
+.l-up .l-up-right .ts li {
+    width: 94px;
+    float: left;
+    text-align: center;
+    margin: 0 4px
+}
+
+.l-up .l-up-right .ts li span {
+    color: #10161f;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    margin-top: 18px;
+    display: block
+}
+
+.l-up .l-up-right .down-wrap {
+    margin-left: 25px
+}
+
+.l-up .l-up-right .down-wrap .code, .l-up .l-up-right .down-wrap .download {
+    float: left
+}
+
+.l-up .l-up-right .down-wrap .download {
+    margin-left: 13px
+}
+
+.l-up .l-up-right .down-wrap .download-btn {
+    width: 169px;
+    height: 50px;
+    display: block
+}
+
+.l-up .l-up-right .down-wrap .download-btn.ios {
+    background: url(http://res.gamer.netease.com/gw/15v2//img/ios_5fcd1f5.png) no-repeat center center
+}
+
+.l-up .l-up-right .down-wrap .download-btn.ios:hover {
+    background: url(http://res.gamer.netease.com/gw/15v2//img/ios_h_a4988cc.png) no-repeat center center
+}
+
+.l-up .l-up-right .down-wrap .download-btn.android {
+    background: url(http://res.gamer.netease.com/gw/15v2//img/android_79b2614.png) no-repeat center center;
+    margin-top: 12px
+}
+
+.l-up .l-up-right .down-wrap .download-btn.android:hover {
+    background: url(http://res.gamer.netease.com/gw/15v2//img/android_h_33a34a3.png) no-repeat center center
+}
+
+.l-down {
+    z-index: 10;
+    height: 450px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/bg2_f24fa65.jpg) no-repeat center center
+}
+
+.l-down .l-down-left {
+    width: 518px;
+    margin-left: 40px;
+    float: left
+}
+
+.l-down .l-down-left .love {
+    width: 518px;
+    height: 518px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/520_9888423.png) no-repeat center center;
+    margin-top: 10px
+}
+
+.l-down .l-down-left #NIE-share {
+    float: right;
+    margin-top: -36px;
+    margin-right: 30px;
+    width: 286px;
+    height: 36px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/share_bg_a578ece.png) no-repeat center center
+}
+
+.l-down .l-down-left #NIE-share .NIE-share-txt {
+    display: none
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn {
+    margin-left: 110px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a {
+    *margin-top: 6px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/share_3a52d01.png) no-repeat;
+    width: 22px;
+    height: 22px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn22 {
+    background-position: 0 0
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn22:hover {
+    background-position: 0 -57px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn23 {
+    background-position: -28px 0
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn23:hover {
+    background-position: -28px -57px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn2 {
+    background-position: -57px 0
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn2:hover {
+    background-position: -57px -57px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn1 {
+    background-position: -86px 0
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn1:hover {
+    background-position: -86px -57px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn4 {
+    background-position: -115px 0
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-iconBtn a.NIE-share-btn4:hover {
+    background-position: -115px -57px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-more em {
+    background: url(http://res.gamer.netease.com/gw/15v2//img/share_3a52d01.png) no-repeat;
+    background-position: -144px 0;
+    width: 22px;
+    height: 22px;
+    margin: -3px 7px
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-more em:hover {
+    background-position-y: -57px;
+    background-position-x: -144px !important
+}
+
+.l-down .l-down-left #NIE-share .NIE-share1 .NIE-share-more ul {
+    left: 22px !important
+}
+
+.l-down .l-down-right {
+    float: left
+}
+
+.l-down .l-down-right .title-top {
+    width: 45px;
+    height: 4px;
+    background: #cf0f32;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px
+}
+
+.l-down .l-down-right h4 {
+    color: #919fb3;
+    font-size: 36px;
+    font-family: '微软雅黑';
+    font-weight: 400
+}
+
+.l-down .l-down-right a {
+    outline: 0
+}
+
+.l-down .l-down-right .sy-warp {
+    margin-top: 40px;
+    position: relative;
+    float: left
+}
+
+.l-down .l-down-right .sy-warp .sy_hover {
+    display: none
+}
+
+.l-down .l-down-right .sy-warp ul {
+    margin-top: 20px
+}
+
+.l-down .l-down-right .sy-warp li {
+    filter: none;
+    background-color: rgba(76, 87, 105, .1);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#194C5769', endColorstr='#194C5769');
+    float: left;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #4e5c75;
+    text-align: center;
+    color: #c0d1f0;
+    font-size: 14px;
+    margin: 0 5px
+}
+
+.l-down .l-down-right .sy-warp li a {
+    overflow: hidden;
+    position: relative;
+    height: 128px;
+    display: block
+}
+
+.l-down .l-down-right .sy-warp li a img {
+    position: absolute;
+    top: 20px;
+    left: 37px;
+    display: block;
+    width: 53px;
+    margin: 0 auto
+}
+
+.l-down .l-down-right .sy-warp li span {
+    display: block;
+    margin-top: 87px;
+    font-size: 14px;
+    color: #c0d1f0
+}
+
+.l-down .l-down-right .dy-warp {
+    margin-top: 40px;
+    position: relative;
+    float: left
+}
+
+.l-down .l-down-right .dy-warp ul {
+    margin-top: 20px
+}
+
+.l-down .l-down-right .dy-warp li {
+    filter: none;
+    background-color: rgba(76, 87, 105, .1);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#194C5769', endColorstr='#194C5769');
+    float: left;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #4e5c75;
+    text-align: center;
+    color: #c0d1f0;
+    font-size: 14px;
+    margin: 0 5px
+}
+
+.l-down .l-down-right .dy-warp li a {
+    display: block;
+    color: #c0d1f0;
+    width: 100%;
+    height: 100%
+}
+
+.l-down .l-down-right .dy-warp li a:hover {
+    filter: none;
+    background-color: rgba(76, 87, 105, .3);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#4C4C5769', endColorstr='#4C4C5769')
+}
+
+.l-down .l-down-right h5 {
+    color: #c0d1f0;
+    font-size: 14px
+}
+
+.l-down .l-down-right h5 i {
+    width: 25px;
+    height: 25px;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/h5_8dc2928.png) no-repeat center center;
+    display: inline-block;
+    _zoom: 1;
+    _display: inline;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.center-wrap {
+    width: 1150px;
+    margin: 0 auto
+}
+
+#NIE-copyRight {
+    margin-bottom: 50px
+}
+
+#NIE-copyRight span {
+    color: #787878
+}
+
+#NIE-copyRight span a {
+    color: #787878
+}
+
+#NIE-copyRight span a:hover {
+    text-decoration: underline
+}
+
+.fade {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1390px;
+    z-index: 9999;
+    filter: none;
+    background-color: rgba(0, 0, 0, .8);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#CC000000', endColorstr='#CC000000')
+}
+
+.videoWrap {
+    display: none;
+    width: 800px;
+    height: 150px;
+    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -275px
+}
+
+.videoWrap .pop_close {
+    display: block;
+    background: url(http://res.gamer.netease.com/gw/15v2//img/close_b8065c6.jpg) no-repeat;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    right: -73px;
+    top: 0
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@-o-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@-ms-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.pulse {
+    -webkit-animation: pulse 1.5s infinite linear 300ms 0 ease;
+    -moz-animation: pulse 1.5s infinite linear 300ms 0 ease;
+    -ms-animation: pulse 1.5s infinite linear 300ms 0 ease;
+    animation: pulse 1.5s infinite linear 300ms 0 ease;
+    -moz-animation: pulse 1.5s infinite linear;
+    -webkit-animation: pulse 1.5s infinite linear;
+    -o-animation: pulse 1.5s infinite linear;
+    -ms-animation: pulse 1.5s infinite linear;
+    animation: pulse 1.5s infinite linear
+}

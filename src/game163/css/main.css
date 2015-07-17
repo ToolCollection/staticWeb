@@ -12,6 +12,10 @@ body {
     height: 56px;
 }
 
+.navbar {
+    background: #fbfbfb !important;
+}
+
 #content {
     margin: -20px 0;
     background: url("../img/bg1_732502b.jpg");
@@ -47,11 +51,14 @@ body {
     color: #333;
     font-size: 11px;
     line-height: 25.5px;
-    background-color: #fff;
+    background-color: #fbfbfb;
 }
 
 .dropdown-menu {
-    background-color: #333 !important;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .dropdown-menu li a {
@@ -283,4 +290,22 @@ body {
     position: relative;
     left: 236px;
     top: -321px;
+}
+
+embed {
+    width: 600px;
+    height: 350px;
+}
+
+#NIE-table {
+    width: 1000px;
+    height: 440px;
+    position: relative;
+    left: -740px;
+}
+
+#NIE-table ul {
+    float: left;
+    list-style-type: none;
+    list-style-type: none;
 }
