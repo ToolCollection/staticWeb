@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     padding: 0;
     font-family: "微软雅黑";
 }
@@ -6,6 +7,7 @@
 body {
     overflow-x: hidden;
 }
+
 .nav {
     height: 56px;
 }
@@ -21,13 +23,15 @@ body {
     background: url("../img/bg2_f24fa65.jpg");
     width: 101%;
     height: 450px;
+    margin-top: -131px;
 }
 
 #content .phone {
     position: relative;
-    top: 104px;
+    top: -303px;
     left: 36em;
 }
+
 .navbar img {
     position: relative;
     left: 60px;
@@ -43,11 +47,13 @@ body {
     color: #333;
     font-size: 11px;
     line-height: 25.5px;
+    background-color: #fff;
 }
 
 .dropdown-menu {
     background-color: #333 !important;
 }
+
 .dropdown-menu li a {
     color: black;
 }
@@ -70,6 +76,7 @@ body {
     height: 85px;
     background-color: black;
     font-size: 12px;
+    color: #787878;
 }
 
 .foot ul {
@@ -112,8 +119,8 @@ body {
 .com-warp {
     display: inline;
     position: absolute;
-    left: 57em;
-    top: 62em;
+    left: 49em;
+    top: 63em;
     color: #c0d1f0;
     font-size: 14px;
 }
@@ -146,6 +153,12 @@ body {
     color: #c0d1f0;
 }
 
+.sy-item2:hover {
+    background: rgb(76, 87, 105);
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+
 .sy-item1 label {
     margin-top: 5px;
 }
@@ -172,4 +185,102 @@ body {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.east {
+    float: left;
+}
+
+.neteast {
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.east-logo {
+    position: relative;
+    left: 85px;
+    top: 150px;
+}
+
+.video {
+    position: relative;
+    left: 85px;
+    top: 166px;
+}
+
+.neteast-info {
+    width: 355px;
+    height: 85px;
+    position: relative;
+    left: 85px;
+    top: 120px;
+    color: #282c32;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.play {
+    position: relative;
+    left: 214px;
+    top: 30px;
+}
+
+.container-size {
+    width: 450px;
+    height: 150px;
+    position: relative;
+    left: 358px;
+    top: -30em;
+}
+
+.container span {
+    margin: 5px 0 0 20px;
+.
+}
+
+.code .ios {
+    width: 169px;
+    height: 50px;
+    background: url("../img/ios_5fcd1f5.png") no-repeat;
+}
+
+.code .android {
+    width: 169px;
+    height: 50px;
+    background: url("../img/android_79b2614.png") no-repeat;
+}
+
+.code .iso-spec a:hover {
+    background: url("../img/ios_5fcd1f5.png") no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+
+.code .android-spec a:hover {
+    background: url("../img/android_79b2614.png") no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+
+.code .co {
+    position: relative;
+    left: 27px;
+    top: 50px;
+}
+
+.code .code-btn {
+    position: relative;
+    left: 154px;
+    top: -66px;
+}
+
+.code .code-btn .android {
+    margin-top: 15px;
+}
+
+#menghuanxiyou {
+    position: relative;
+    left: 236px;
+    top: -321px;
 }
