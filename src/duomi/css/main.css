@@ -1,0 +1,71 @@
+body {
+    margin: 55px 0;
+}
+
+.nav li {
+    color: #d5d5d5;
+    font-size: 12px;
+    height: 55px;
+    line-height: 55px;
+}
+
+.nav {
+    margin-left: 18em;
+}
+
+.nav a {
+    padding: 20px 15px !important;
+    color: #d3d4d4;
+}
+
+.navbar-brand > img {
+    margin-left: 7em;
+}
+
+#weibo {
+    position: fixed;
+    left: 62em;
+    top: 1em;
+}
+
+.register a {
+    margin-left: 15em;
+    color: #74b608 !important;
+}
+
+#sec-nav ul li a {
+    color: #53595F;
+    font-size: 16px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: 200;
+}
+
+#sec-nav ul li a:hover {
+    color: #158100;
+}
+
+.active {
+    color: #158100 !important;
+}
+
+.nav_gap {
+    width: 2px;
+    height: 55px;
+    background: url(http://imggw.duomi.com/www/image/public/index.png) 0 -110px;
+    display: block;
+    overflow: hidden;
+    float: left
+}
+
+.nav-new {
+    position: absolute;
+    left: 54px;
+    top: 1px;
+}
+
+#myFocus {
+    width: 960px;
+    height: 380px;
+    position: relative;
+    top: -20px;
+}
