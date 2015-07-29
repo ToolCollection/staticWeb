@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="import" href="../framework/common/head.html"/>
+    <link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css"/>
+    <style>
+        .list-inline{
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+<div id=nav class="">
+    <ul class="nav nav-navbar list-inline">
+        <li id=mainlevel_01 class="first-crl mainlevel">
+            <a class=nav-a href="http://www.198zone.com">走进西王</a>
+
+            <div id=sub_01 style="display: none;">
+                <ul class="">
+                    <li>
+                        <a href="http://www.198zone.com">集团概况</a>
+                        <a href="http://www.198zone.com">组织架构</a>
+                        <a href="http://www.198zone.com">领导关怀</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">董事长风采</a>
+                        <a href="http://www.198zone.com">公司管理</a>
+                        <a href="http://www.198zone.com">社会关注</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">高管团队</a>
+                        <a href="http://www.198zone.com">发展历程</a>
+                        <a href="http://www.198zone.com">荣誉风采</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li id=mainlevel_02 class="first-crl mainlevel">
+            <a class=nav-a href="http://www.198zone.com">走进西王</a>
+
+            <div id=sub_02 style="display: none;">
+                <ul class="">
+                    <li>
+                        <a href="http://www.198zone.com">集团概况</a>
+                        <a href="http://www.198zone.com">组织架构</a>
+                        <a href="http://www.198zone.com">领导关怀</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">董事长风采</a>
+                        <a href="http://www.198zone.com">公司管理</a>
+                        <a href="http://www.198zone.com">社会关注</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">高管团队</a>
+                        <a href="http://www.198zone.com">发展历程</a>
+                        <a href="http://www.198zone.com">荣誉风采</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li id=mainlevel_03 class="first-crl mainlevel">
+            <a class=nav-a href="http://www.198zone.com">走进西王</a>
+
+            <div id=sub_03 style="display: none;">
+                <ul class="">
+                    <li>
+                        <a href="http://www.198zone.com">集团概况</a>
+                        <a href="http://www.198zone.com">组织架构</a>
+                        <a href="http://www.198zone.com">领导关怀</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">董事长风采</a>
+                        <a href="http://www.198zone.com">公司管理</a>
+                        <a href="http://www.198zone.com">社会关注</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">高管团队</a>
+                        <a href="http://www.198zone.com">发展历程</a>
+                        <a href="http://www.198zone.com">荣誉风采</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li id=mainlevel_04 class="first-crl mainlevel">
+            <a class=nav-a href="http://www.198zone.com">走进西王</a>
+
+            <div id=sub_04 style="display: none;">
+                <ul class="">
+                    <li>
+                        <a href="http://www.198zone.com">集团概况</a>
+                        <a href="http://www.198zone.com">组织架构</a>
+                        <a href="http://www.198zone.com">领导关怀</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">董事长风采</a>
+                        <a href="http://www.198zone.com">公司管理</a>
+                        <a href="http://www.198zone.com">社会关注</a>
+                    </li>
+                    <li>
+                        <a href="http://www.198zone.com">高管团队</a>
+                        <a href="http://www.198zone.com">发展历程</a>
+                        <a href="http://www.198zone.com">荣誉风采</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+</div>
+<script>
+    $(function () {
+        $(".mainlevel:has(div)").hover(function () {
+            $(this).children("div").stop(true, true).slideDown(300)
+        }, function () {
+            $(this).children("div").stop(true, true).slideUp(100)
+        })
+    });
+</script>
+</body>
+</html>
