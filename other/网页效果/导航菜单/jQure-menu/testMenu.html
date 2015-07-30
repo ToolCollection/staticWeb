@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css"/>
+   <script src=" http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('#webmenu li').hover(function(){
+                $(this).children('ul').stop(true,true).show('slow');
+            },function(){
+                $(this).children('ul').stop(true,true).hide('slow');
+            });
+
+            $('#webmenu li').hover(function(){
+                $(this).children('div').stop(true,true).show('slow');
+            },function(){
+                $(this).children('div').stop(true,true).hide('slow');
+            });
+        });
+    </script>
+</head>
+<body>
+<nav class="nav nav-navbar">
+<ul id="webmenu" class="list-inline">
+    <li>1</li>
+    <li>2
+        <ul class="fourth-menu" style="display:none;position:absolute;">
+            <li><a href="http://www.taobao.com/">淘宝网</a></li>
+            <li><a href="http://www.dangdang.com/">当当网</a></li>
+            <li><a href="http://www.eachnet.com/">易趣网</a></li>
+            <li><a href="http://youa.baidu.com/">百度有啊</a></li>
+            <li><a href="http://www.amazon.cn/">卓越网</a></li>
+            <li><a href="http://www.paipai.com/">拍拍网</a></li>
+            <li><a href="http://china.alibaba.com/">阿里巴巴</a></li>
+            <li><a href="http://www.360buy.com/">京东商城</a></li>
+            <li><a href="http://www.gumzzi.com/">锦上添花女装</a></li>
+        </ul>
+    </li>
+
+</ul>
+
+</nav>
+
+
+
+</body>
+</html>
