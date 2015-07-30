@@ -1,9 +1,9 @@
 // JavaScript Document
 $(function () {
     $(".mainlevel:has(div)").hover(function () {
-        $(this).children("div").stop(true, true).slideDown(300)
+        $(this).children("div").stop(true, true).slideDown(100)
     }, function () {
-        $(this).children("div").stop(true, true).slideUp(1000)
+        $(this).children("div").stop(true, true).slideUp(100)
     })
 });
 
