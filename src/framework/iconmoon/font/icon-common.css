@@ -379,6 +379,7 @@
 }
 
 .icon-mobile:before {
+    font-size: 28px;
     content: "\e958";
 }
 

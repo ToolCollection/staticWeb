@@ -81,3 +81,78 @@ body{
     position: relative;
     top: -20px;
 }
+
+i {
+    font-size: 24px;
+    color: lightgreen;
+}
+
+#download .navbar-nav li a {
+    width: 126px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.static-img {
+    width: 998px;
+    height: 290px;
+    display: inline-block;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) -1px -54px;
+    position: relative;
+    left: 14em;
+}
+
+a.winPC {
+    margin-top: 6px;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) 0 -354px;
+}
+
+a.android {
+    margin-top: 6px;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) -130px -354px;
+}
+
+a.iphone {
+    width: 100px !important;
+    margin-top: 6px;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) -254px -354px;
+}
+
+a.symbian {
+    width: 130px !important;
+    margin-top: 6px;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) -350px -354px;
+}
+
+a.winPhone {
+    width: 120px !important;
+    background: url(http://imggw.duomi.com/www/image/public/index_01.png) -473px -354px;
+}
+
+.download {
+    position: relative;
+    left: -3em;
+}
+
+.icon-mobile:after {
+    content: "按机型下载";
+    width: 150px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.download {
+    color: #000 !important;
+    font-family: "雅黑宋体", "微软雅黑", "新宋体", "宋体" !important;
+}
+
+#type {
+    position: relative;
+    bottom: 15px;
+}
+
+a:hover {
+    background-color: #fff;
+}

@@ -7,7 +7,7 @@
     <title>多米音乐播放器</title>
     <link rel="import" href="../framework/common/head.html"/>
     <link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../framework/icomoon/.css"/>
+    <link rel="stylesheet" href="../framework/iconmoon/font/icon-common.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
     <script src="../framework/myFocus/js/myfocus-2.0.1.min.js"></script>
@@ -92,19 +92,18 @@
         </ul>
     </div>
 </div>
-<div class="navbar-collapse collapse" role="navigation">
+<div class="navbar-collapse collapse" role="navigation" id="download">
     <ul class="nav navbar-nav">
-        <li>快速下载：</li>
-        <li><a href=""><img src="" alt="" class="winPC"/></a></li>
-        <li><a href=""><img src="" alt="" class="android"/></a></a></li>
-        <li><a href=""><img src="" alt="" class="iphone"/></a></li>
-        <li><a href=""><img src="" alt="" class="symbian"/></a></li>
-        <li><a href=""><img src="" alt="" class="winPhone"/></a></li>
-        <li><a href=""><i class=""></i>按机型选择下载</a></li>
+        <li class="download">快速下载：</li>
+        <li><a href="" class="winPC"></a></li>
+        <li><a href="" class="android"></a></a></li>
+        <li><a href="" class="iphone"></a></li>
+        <li><a href="" class="symbian"></a></li>
+        <li><a href="" class="winPhone"></a></li>
+        <li><a href="" id="type"><i class="icon icon-mobile"></i></a></li>
     </ul>
-
 </div>
-
+<div class="static-img"></div>
 <script type="text/javascript">
     //设置
     myFocus.set({
