@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>淘宝搜索框</title>
+    <link rel="import" href="../framework/common/head.html"/>
+    <link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../framework/awesome-3.2.1/css/font-awesome.css"/>
+    <style>
+        body, html, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .search-list {
+            position: absolute;
+            left: 3px;
+            top: -3px;
+            width: 60px;
+            height: 39px;
+            line-height: 39px;
+            overflow: hidden;
+        }
+
+        .search-list li a {
+            text-decoration: none;
+            color: #484a4b;
+        }
+
+        .search-list a:hover {
+            text-decoration: none;
+        }
+
+        .search-list li {
+            display: block;
+            text-align: center;
+            height: 46px;
+            overflow: hidden;
+            line-height: 46px;
+            background: #fff;
+            border-left: 1px solid #f6f6f6;
+            border-right: 1px solid #e5e5e5;
+        }
+
+        .search-list .selected {
+            background: #f6f6f6;
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            display: block;
+        }
+
+        .search-container {
+            border: 3px solid coral;
+            height: 46px;
+        }
+
+        .trigger-hover {
+            height: auto;
+        }
+        .trigger-hover li{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="search-container">
+    <div class="search-list" id="search-type">
+        <ul>
+            <li id="tab-1"><a href="#">宝贝</a></li>
+            <li id="tab-2"><a href="#">店铺</a></li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div><a href="javascript:void (0)" id="show" class="btn btn-success">今天周几</a></div>
+</div>
+<script>
+    $("#search-type").bind("mouseover", function () {
+        $(this).addClass("trigger-hover");
+    }).mouseout(function () {
+        $(this).removeClass("trigger-hover");
+    });
+    $("#tab-1").bind("mouseover", function () {
+        $(this).addClass("selected");
+    }).mouseout(function () {
+        $(this).removeClass("selected");
+    });
+    $("#tab-2").bind("mouseover", function () {
+        $(this).addClass("selected");
+    }).mouseout(function () {
+        $(this).removeClass("selected");
+    });
+
+    $("#tab-1").click(function(){
+        $(this).className("search-list")
+    });
+    $("#tab-2").click(function(){
+        $(this).className("search-list")
+    });
+
+    $("#show").click(function(){
+        var mydate = new Date();
+        var weekend =['星期天','星期一','星期二','星期三','星期四','星期五','星期六']
+        var now = weekend[mydate.getDay()];
+        alert(now);
+    });
+
+</script>
+</body>
+</html>
