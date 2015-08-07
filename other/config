@@ -1,0 +1,6 @@
+Host lol
+	HostName 121.43.103.217
+	User boom
+	Port 22
+	PubkeyAuthentication yes
+	IdentityFile ~/.ssh/id_rsa
