@@ -6,13 +6,15 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 body {
     font-size: 12px;
     color: #666;
-    font-family: Verdana, Microsoft YaHei, Simsun;
+    font-family: Verdana, Microsoft YaHei, Simsun, serif;
     background: rgb(10, 10, 10);
     margin-bottom: 100px;
     line-height: 24px;
     overflow-x: hidden;
 }
-
+ul > li a:hover {
+    color: #fff;
+}
 fieldset, img {
     border: 0;
 }
@@ -81,12 +83,13 @@ body {
 .background .search input {
     width: 380px;
     height: 42px;
+    line-height: 42px;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.7);
     position: relative;
     left: 35%;
-    top: 3em;
+    top: -.5em;
     text-indent: 15px;
     color: #fff;
 }
@@ -106,7 +109,7 @@ h3 {
     font-family: "雅黑宋体", "微软雅黑", "新宋体", "宋体", serif;
     position: absolute;
     left: 10%;
-    top: 19%;
+    top: 11%;
 }
 
 footer .first, footer .second, footer .third {
@@ -151,7 +154,7 @@ footer .third {
 
 .third .middle {
     position: absolute;
-    left: 47%;
+    left: 53%;
 }
 
 .third .show {
