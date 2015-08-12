@@ -12,9 +12,11 @@ body {
     line-height: 24px;
     overflow-x: hidden;
 }
+
 ul > li a:hover {
     color: #fff;
 }
+
 fieldset, img {
     border: 0;
 }
@@ -102,7 +104,6 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-
 h3 {
     font-size: 30px;
     color: #fff;
@@ -110,6 +111,11 @@ h3 {
     position: absolute;
     left: 10%;
     top: 11%;
+}
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
 }
 
 footer .first, footer .second, footer .third {
@@ -154,7 +160,7 @@ footer .third {
 
 .third .middle {
     position: absolute;
-    left: 53%;
+    left: 50%;
 }
 
 .third .show {

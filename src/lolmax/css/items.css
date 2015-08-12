@@ -78,13 +78,13 @@
     margin: 10px 0;
 }
 
-.item span {
-    margin-left: 10px;
-}
-
 .main .nav span {
     margin-left: 20%;
     padding-right: 10px;
+}
+
+.item span {
+    margin-left: 10px;
 }
 
 .list {
